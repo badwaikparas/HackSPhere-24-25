@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrino</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"><span class="material-symbols-outlined">
+                            home
+                        </span></a>
+                </li>
+                <li><span class="material-symbols-outlined">
+                        calculate
+                    </span>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">
+                        no_food
+                    </span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="Awareness">
+        <div class="BMI">
+            <div id="calculator">
+                <h2>BMI Calculator</h2>
+                <form id="bmiForm">
+                    <label for="weight">Weight (kg):</label>
+                    <input type="number" id="weight" step="0.01" required><br>
+
+                    <label for="height">Height (m):</label>
+                    <input type="number" id="height" step="0.01" required><br>
+
+                    <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+                </form>
+
+                <h3>Result:</h3>
+                <p id="result"></p>
+            </div>
+        </div>
+        <div class="diet">
+            <div class="slider">
+
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Document</title>
+                    <link rel="stylesheet" href="slider.css">
+                </head>
+                <div id="slider">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="inner">
+                                <div class="slide slide_1">
+                                    <div class="slide-content">
+                                        <h2>Slide 1</h2>
+
+                                        <a href="keto.html">
+                                            <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                                alt="loading...">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="slide slide_2">
+                                    <div class="slide-content">
+                                        <h2>Slide 2</h2>
+                                        <h2>Slide 1</h2>
+                                        <a href="vegan.html">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="slide slide_3">
+                                    <div class="slide-content">
+                                        <h2>Slide 3</h2>
+                                        <a href="lowCarb.html">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="slide slide_4">
+                                    <div class="slide-content">
+                                        <h2>Slide 4</h2>
+                                        <a href="gluten.html">
+                                            <img
+                                                src="https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                    </div>
+                    <div id="bullets">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="list">
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+        <div class="nutrients">
+            <div>
+                <h3 class="A">Vitamin A</h3>
+            </div>
+            <div class="tick">
+                <form id="forms">
+                    <input type="checkbox" id="" name="items" value="1">
+                    <label for="items1"> Carrot</label><br>
+                    <input type="checkbox" id="items2" name="items" value="2">
+                    <label for="items2"> Spinach</label><br>
+                    <input type="checkbox" id="items3" name="items" value="3">
+                    <label for="items3"> Egg</label><br>
+                    <input type="checkbox" id="items3" name="items" value="3">
+                    <label for="items3"> fish</label><br>
+                </form>
+            </div>
+        </div>
+        <div class="nutrients">
+            <div class="vitamin">
+                <h3 class="A">Vitamin B</h3>
+            </div>
+            <div class="tick">
+                <form id="forms1">
+                    <input type="checkbox" id="" name="items1" value=1>
+                    <label for="items1"> Whole Grain</label><br>
+                    <!-- <input type="checkbox" id="items2" name="items1" value="2">
+                    <label for="items2"> Beans</label><br> -->
+                    <input type="checkbox" id="items3" name="items1" value="3">
+                    <label for="items3"> Wheat</label><br>
+                    <input type="checkbox" id="items3" name="items1" value="4">
+                    <label for="items3"> Avacado</label><br>
+                    <input type="checkbox" id="items3" name="items1" value="5">
+                    <label for="items3"> Mushrooms</label><br>
+                    <!-- <input type="checkbox" id="items3" name="items1" value="6">
+                    <label for="items3"> Peas</label><br> -->
+                </form>
+            </div>
+        </div>
+        <div class="nutrients">
+            <div class="vitamin">
+                <h3 class="A">Vitamin C</h3>
+            </div>
+            <div class="tick">
+                <form id="forms2">
+                    <input type="checkbox" id="" name="items2" value="1">
+                    <label for="items1"> Orange</label><br>
+                    <input type="checkbox" id="items2" name="items2" value="2">
+                    <label for="items2"> StrawBerries</label><br>
+                    <input type="checkbox" id="items3" name="items2" value="3">
+                    <label for="items3"> Parsley</label><br>
+                    <input type="checkbox" id="items3" name="items2" value="3">
+                    <label for="items3"> Kiwi</label><br>
+                </form>
+            </div>
+        </div>
+        <div class="nutrients">
+            <div class="vitamin">
+                <h3 class="A">Vitamin D</h3>
+            </div>
+            <div class="tick">
+                <form id="forms3">
+                    <input type="checkbox" id="" name="items3" value="1">
+                    <label for="items1"> Codliver Oil</label><br>
+                    <input type="checkbox" id="items2" name="items3" value="2">
+                    <label for="items2"> Tofu</label><br>
+                    <input type="checkbox" id="items3" name="items3" value="3">
+                    <label for="items3"> Salmon</label><br>
+                    <input type="checkbox" id="items3" name="items3" value="3">
+                    <label for="items3"> Egg Yolk</label><br>
+                </form>
+            </div>
+        </div>
+        <div class="nutrients">
+            <div class="vitamin">
+                <h3 class="A">Vitamin E</h3>
+            </div>
+            <div class="tick">
+                <form id="forms4">
+                    <input type="checkbox" id="" name="items4" value="1">
+                    <label for="items1"> Almond</label><br>
+                    <input type="checkbox" id="items2" name="items4" value="2">
+                    <label for="items2"> Shrimp</label><br>
+                    <input type="checkbox" id="items3" name="items4" value="3">
+                    <label for="items3"> Oats</label><br>
+                    <input type="checkbox" id="items3" name="items4" value="3">
+                    <label for="items3"> Brown Rice</label><br>
+                </form>
+            </div>
+        </div>
+        <div class="nutrients">
+            <div class="vitamin">
+                <h3 class="A">Protein</h3>
+            </div>
+            <div class="tick">
+                <form id="forms5">
+                    <input type="checkbox" id="" name="items5" value="1">
+                    <label for="items1"> Sprouts</label><br>
+                    <input type="checkbox" id="items2" name="items5" value="2">
+                    <label for="items2"> Milk Products</label><br>
+                    <input type="checkbox" id="items3" name="items5" value="3">
+                    <label for="items3"> Soya Bean</label><br>
+                    <input type="checkbox" id="items3" name="items5" value="3">
+                    <label for="items3"> Lentils</label><br>
+                </form>
+            </div>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+        <button id="CheckAll" btnCheckAll>Check All</button>
+        <button id="UncheckAll" btnUnheckAll>Uncheck All</button>
+    </div>
+    <div class="chartCard">
+        <div class="chartBox">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+    <script src="brain.js"></script>
+    <script src="chart1.js"></script>
+    <script src="list.js"></script>
+</body>
+
+</html>

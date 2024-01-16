@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+.BMI {
+    margin: 10px;
+    margin-right: 5px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.diet {
+    background-color: black;
+    padding: 10px;
+    width: 80vw;
+    margin: 10px;
+    margin-left: 5px;
+}
+
+.Awareness {
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    margin: 10px;
+}
+
+.list {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.nutrients {
+    background-color: black;
+    color: white;
+}
+
+.chartCard {
+    width: 1000px;
+    height: 700px;
+}
